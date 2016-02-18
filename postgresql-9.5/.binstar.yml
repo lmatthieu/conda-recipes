@@ -12,7 +12,7 @@ engine:
   - python=2
 
 script:
-  - yum install -y readline-devel bison
+  - sudo yum install -y readline-devel bison
   - conda build  .
 
 build_targets: conda
